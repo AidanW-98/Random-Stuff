@@ -1,19 +1,9 @@
-```adf 
-{"type":"paragraph","attrs":{"localId":"00d4b276-1b2a-4d55-9bbb-33abc402ccef"},"content":[{"text":"Hello everyone! I have heard many claims about AI's devastating impact on the environment; as a keen advocate of AI and as someone who’s passionate about living on a healthy, green planet - this has proposed a conundrum to me. So, I decided to investigate further… ","type":"text"},{"type":"emoji","attrs":{"id":"1f7e9","text":"🟩","shortName":":green_square:","localId":"4615af57-a344-48ad-a01e-558045f3bcbf"}},{"type":"emoji","attrs":{"id":"68d2bc51-ac7d-42b7-8a88-0eba2bdf128c","text":":ai-hackathon:","shortName":":ai-hackathon:","localId":"8efbdf6d-15cc-444b-8e2f-2c76b9653a94"}},{"text":" ","type":"text"}]}
-```
+# 🌍 AI & its impact on the environment - A Data Driven View
+
+Hello everyone! I have heard many claims about AI's devastating impact on the environment; as a keen advocate of AI and as someone who’s passionate about living on a healthy, green planet - this has proposed a conundrum to me. So, I decided to investigate further… 🟩🌍
 
 
-```adf 
-{"type":"heading","attrs":{"level":2,"localId":"a150c093-2ad3-4dc6-acbe-c7fd3966616a"},"content":[{"type":"emoji","attrs":{"id":"1f9f7","text":"🧷","shortName":":safety_pin:","localId":"a6acfb6e-770e-4ace-9cc3-797adcbade57"}},{"text":" Background ","type":"text"}]}
-```
-
-I first explored this in an *engineering forum in the Ads tribe*; a few engineers got together with almost no prior knowledge and went out searching... From a surface level sweep, the results indicated that usage from AI seems *actually fine* compared to many other technologies; but with huge uncertainties and training an AI model looked a very different picture.
-
-It was good initial insight, but a further investigation was needed.
-
-```adf 
-{"type":"heading","attrs":{"level":2,"localId":"c04f3f44-3075-49b4-986d-d163d36c27db"},"content":[{"type":"emoji","attrs":{"id":"1f4a1","text":"💡","shortName":":bulb:","localId":"a0ab7387-1a9a-4447-8a7b-bbf9bf3ff642"}},{"text":" A bit of research; grabbing some numbers","type":"text"}]}
-```
+## 💡 A bit of research; grabbing some numbers
 
 In short - the reasoning behind AI's perceived negative impact on the environment comes from the massive data centre uses; the electricity to power them and water to cool them down.
 
@@ -30,11 +20,11 @@ Taking a look at the data, I’ve pulled in estimations for:
 >*These numbers carry a significant margin of error; data-centre energy totals are used to work backwards; spreading that power across networks, devices, users, and time to land on a rough cost per operation per user. They represent ball-park figures only; **these numbers are directional, not precise. **The goal is scale, not accuracy.
 > **OpenAI is powered by Microsoft Azure Data Centres; WUE can be measured in Litres per kilowatt hour to detect the water required in datacenter operation. 
 
-
 To see the exact values and their sources, please expand the content below.
 
-> [!expand]+ Estimations used for this investigation
-> ```python 
+<details>
+<summary>Estimations used for this investigation</summary>
+```python 
 > # AI usage, all measured in kWh
 > chatGPT_chat=0.0003 # source: https://epoch.ai/gradient-updates/how-much-energy-does-chatgpt-use
 > image_generation=0.011 #source: https://www.slashgear.com/1696332/ai-image-generation-how-much-energy-used/
@@ -106,11 +96,10 @@ To see the exact values and their sources, please expand the content below.
 > bath=100
 > # source: https://watercalculator.org/water-footprint-of-food-guide/
 > one_hundred_grams_chocolate=1800
-> ```
-
-```adf 
-{"type":"heading","attrs":{"level":2,"localId":"58127c14-efcc-4ff1-8ad9-e5fb99901b7e"},"content":[{"type":"emoji","attrs":{"id":"1f50c","text":"🔌","shortName":":electric_plug:","localId":"d471de9b-6a1f-430b-9b44-f680400373c7"}},{"text":" Energy usage of AI ","type":"text"}]}
 ```
+</details>
+
+## 🔌 Energy usage of AI
 
 First of all, let's look how much energy (measured in kWh) is typically used by different AI requests and how this compares in terms we know and understand.
 
