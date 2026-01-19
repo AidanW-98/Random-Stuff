@@ -276,4 +276,10 @@ So, how can we help? It’s not for me to say here, but it’s always good pract
 - Chat to Ecosia’s AI: [https://www.ecosia.org/ai-search](https://www.ecosia.org/ai-search) (backed by renewable energy)
 - Consider the book: [https://www.goodreads.com/book/show/7230015-how-bad-are-bananas](https://www.goodreads.com/book/show/7230015-how-bad-are-bananas)  (I’ve not read this yet; but considers and discusses carbon footprint of all our everyday activities)
 
+## 🗣️ Most importantly - what do you think?
+
+**This blog is not a conclusive or definitive answer**; I'm intending this as a starting point for discussion and thought, and there are likely points in this where I'm wrong or have made incorrect assumptions.
+
+I like a challenge and I like to learn more, we all should be doing so; I'd love to hear your thoughts! If you know me - chat to me directly; if you saw this post online - comment on that post; if you have anything you'd want to say - please do, my LinkedIn is below.
+
 … Anyway, that's me. I hope this has been a useful and informative read! Adios ☮️
