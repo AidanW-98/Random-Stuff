@@ -6,7 +6,8 @@ theme: jekyll-theme-primer
 # Site settings
 title: Aidan's Projects
 description: Aidan had some thoughts...
-url: "https://aidanw-98.github.io/Random-Stuff"
+url: "https://aidanw-98.github.io"
+baseurl: "/Random-Stuff"
 
 # Build settings
 markdown: GFM
