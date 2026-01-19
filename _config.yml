@@ -4,13 +4,13 @@
 theme: jekyll-theme-primer
 
 # Site settings
-title: Blogs
-description: A collection of thoughts and insights
-baseurl: "/Random-Stuff"
-url: "https://aidanw-98.github.io"
+title: AidanBlogs
+description: Aidan had some thoughts...
+url: "https://aidanw-98.github.io/Random-Stuff"
 
 # Plugins
 plugins:
+  - jekyll-remote-theme 
   - jekyll-gfm-admonitions
 
 # Build settings

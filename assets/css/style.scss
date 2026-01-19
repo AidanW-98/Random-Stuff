@@ -1,0 +1,29 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* Subtle nature-inspired styling */
+body {
+  background-color: #f9f7f1; /* warm sepia off-white */
+}
+
+/* Soften the container background */
+.markdown-body {
+  background-color: #fdfcf9;
+  border-radius: 4px;
+}
+
+/* Warm up link colors slightly */
+a {
+  color: #2c7a4d; /* forest green for links */
+}
+
+a:hover {
+  color: #1e5a36;
+}
+
+/* Soften headings with a warm tone */
+h1, h2, h3, h4, h5, h6 {
+  color: #3a3a3a;
+}
