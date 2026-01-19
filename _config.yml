@@ -1,5 +1,13 @@
 # Jekyll configuration for GitHub Pages
 
+# Theme
+remote_theme: kitian616/jekyll-TeXt-theme
+
+# Site settings
+title: Blogs
+description: A collection of thoughts and insights
+text_skin: forest # nature-inspired green tones
+
 # Plugins
 plugins:
   - jekyll-gfm-admonitions
