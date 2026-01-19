@@ -2,6 +2,8 @@
 
 Hello everyone! I have heard many claims about AI's devastating impact on the environment; as a keen advocate of AI and as someone who’s passionate about living on a healthy, green planet - this has proposed a conundrum to me. So, I decided to investigate further… 🟩🌍
 
+<a id="research-numbers"></a>
+
 ## 💡 A bit of research; grabbing some numbers
 
 In short - the reasoning behind AI's perceived negative impact on the environment comes from the massive data centre uses; the electricity to power them and water to cool them down.
@@ -17,7 +19,6 @@ Taking a look at the data, I’ve pulled in estimations for:
 
 > [!NOTE]
 > *These numbers carry a significant margin of error; data-centre energy totals are used to work backwards; spreading that power across networks, devices, users, and time to land on a rough cost per operation per user. They represent ball-park figures only; **these numbers are directional, not precise.** The goal is scale, not accuracy.
->
 > **OpenAI is powered by Microsoft Azure Data Centres; WUE can be measured in Litres per kilowatt hour to detect the water required in datacenter operation.
 
 To see the exact values and their sources, please expand the content below.
@@ -115,7 +116,7 @@ The energy usage of 100 simple queries would roughly match a deep research quest
 
 It's good to see how different requests compare to themselves in AI - but what does this mean in terms we'd understand?
 
-> [!NOTE]
+> [!TIP]
 > An example simple query could be *"What's the Capital of France"* and a deep reasoning question could be *"Analyse and explain the footfall of a typical Gregg's in London".*
 
 ### Comparing to everyday home uses
@@ -173,7 +174,7 @@ So, assuming all processing is done at typical UK data centres - I want to build
 - 1,000 ChatGPT messages
 - 25 deep reasoning requests
 
-> [!NOTE]
+> [!TIP]
 > According to ChatGPT 2025 unwrapped; I received 4,784 messages which is in the top 5% worldwide.
 
 Let's see what this all produces:
@@ -219,14 +220,14 @@ But thankfully in Claude **we can see the token usage**; use `/status` within Cl
 - Running a shower for 30 minutes (electric shower)
 - A gaming PC operation for 12hours
 
-> [!NOTE]
-> Other estimates in this blog use numbers I've found and researched, however these estimates are from ChatGPT & back-of-the-envelope calculations only... Feel free to challenge them!
+> [!WARNING]
+> Other estimates in this blog use numbers I've found and [documented above](#research-numbers), however these estimates are from ChatGPT & back-of-the-envelope calculations only... Feel free to challenge them!
 
 ## 🤖 Don't forget - training AI
 
 So why all hysteria about AI being bad for the environment? Well an elephant in the room so far ignored is **what is required when training AI,** and this is significant.
 
-> [!NOTE]
+> [!TIP]
 > The exact details of training a GPT-5-scale model are not public, but it involves running large GPU clusters continuously for weeks to optimise billions of parameters over vast datasets. A significant amount electricity is used and this is largely carried out in the United States.
 
 This is a massive operation. We went from talking about watt hours, millilitres and grams of CO2 to: gigawatts, mega-litres, and thousands of metric tonnes of CO2 emitted.
@@ -262,7 +263,7 @@ This blog is not a deep-dive; I’ve ball-parked AI’s impact to the environmen
 
 If you’re considering cutting back on AI to help the planet; it is my opinion that this would not be effective; there are far bigger and easier gains outwith AI. See what [WWF say about it](https://www.wwf.org.uk/thingsyoucando), and if energy usage is the worry - perhaps consider the impact of streaming video or scrolling social media.
 
-> [!NOTE]
+> [!IMPORTANT]
 > To be frank, the real discussion shouldn't be about using AI - it should be about how green its energy is. In other words, **AI isn't bad for the environment, powering it with fossils fuels is.** This should be the debate.
 
 So, how can we help? It’s not for me to say here, but it’s always good practise to educate yourselves; be a little skeptical, have some conversations, and do your own research. As a few pointers:
