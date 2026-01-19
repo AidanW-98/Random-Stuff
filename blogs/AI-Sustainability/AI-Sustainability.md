@@ -209,16 +209,18 @@ Data centre cooling seems efficient at a scale of high-end use; **it would take 
 
 ## 🐙 A quick note on Claude
 
-Many of us engineers are using Claude in our tasks; and this method appears to be constantly reasoning and producing code - so the some metrics like *number of chats* wouldn’t work here. But **we can see the token usage**…
+Many of us are using coding assistants in our work and seeing great results, these methods seem to be constantly reasoning and producing code, so our metrics like number of chats won’t apply here.
 
-Taking some more estimates - we can use a rule of thumb of: **10,000 tokens roughly consumes 50Wh of energy which emits 10.5g of CO2**(UK based energy), this very roughly equates to:
+But thankfully in Claude **we can see the token usage**; use `/status` within Claude CLI.
 
-- Streaming Netflix for ~1 hour
-- Showering for ~20 seconds (electric shower)
-- Driving ~50 metres in a typical petrol car
+**Heavy usage of Claude would use ~1M tokens over 30 days**, taking estimates we can use a rule of thumb of: **1M tokens roughly consumes 5kWh of energy which emits 1.06kg of CO2** (UK based energy), this very roughly equates to:
+
+- Driving 6km in a typical petrol car
+- Running a shower for 30 minutes (electric shower)
+- A gaming PC operation for 12hours
 
 > [!NOTE]
-> This estimate I just checked with ChatGPT ([conversation](https://chatgpt.com/share/e/69613398-2cec-8011-a50e-1aff30df30da)); feel free to research & correct me!
+> Other estimates in this blog use numbers I've found and researched. These estimates for Claude are from ChatGPT & back-of-the-envelope calculations only, feel free to challenge them!
 
 ## 🤖 Don't forget - training AI
 
@@ -267,6 +269,5 @@ So, how can we help? It’s not for me to say here, but it’s always good pract
 
 - Chat to Ecosia’s AI: [https://www.ecosia.org/ai-search](https://www.ecosia.org/ai-search) (backed by renewable energy)
 - Consider the book: [https://www.goodreads.com/book/show/7230015-how-bad-are-bananas](https://www.goodreads.com/book/show/7230015-how-bad-are-bananas)  (I’ve not read this yet; but considers and discusses carbon footprint of all our everyday activities)
-- Checkout our in-house sustainability Slack channel: [https://skyscanner.slack.com/archives/C4MVDMPCL](https://skyscanner.slack.com/archives/C4MVDMPCL)
 
 … Anyway, that's me. I hope this has been a useful and informative read! Adios ☮️
