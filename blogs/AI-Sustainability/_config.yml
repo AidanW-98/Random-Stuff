@@ -1,0 +1,8 @@
+# Jekyll configuration for GitHub Pages
+
+# Plugins
+plugins:
+  - jekyll-gfm-admonitions
+
+# Build settings
+markdown: GFM
