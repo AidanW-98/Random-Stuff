@@ -1,25 +1,30 @@
 # 🌍 AI & its impact on the environment - A Data Driven View
 
-Hello everyone! I have heard many claims about AI's devastating impact on the environment; as a keen advocate of AI and as someone who’s passionate about living on a healthy, green planet - this has proposed a conundrum to me. So, I decided to investigate further… 🟩🌍
+Hey there - I work at SkyScanner, we get some generous Personal Development Time (PDT) and we can blog about anything we like! I decided to write about AI and its impact on the environment 🙀
+
+> [!IMPORTANT] Beware
+> **This is a blog, not a research paper.** I've taken ball-park estimates, applied simple calculations, and plotted these onto graphs. I have my sources below. Please do not take any of the numbers or comparisons as scientifically accurate or precise. The goal is to provide directional insight only.
+
+I have heard many claims about **AI's devastating impact on the environment**; as a keen advocate of AI and **as someone who’s passionate about living on a healthy, green planet** - this has proposed a conundrum to me. So, I decided to investigate further… 🌍🤔
 
 <a id="research-numbers"></a>
 
 ## 💡 A bit of research; grabbing some numbers
 
-In short - the reasoning behind AI's perceived negative impact on the environment comes from the massive data centre uses; the electricity to power them and water to cool them down.
+In short - the reasoning behind AI's perceived negative impact on the environment comes from the **massive data centre uses**; the electricity to power them and water to cool them down.
 
-However - this situation of course applies to countless technologies - just think about the processing required behind getting TikTok, YouTube, Netflix, Spotify and Zoom to run in our everyday use...
+However - **this situation of course applies to countless technologies** - just think about the processing required behind getting TikTok, YouTube, Netflix, Spotify and Zoom to run in our everyday use...
 
 Taking a look at the data, I’ve pulled in estimations for:
 
-1. Typical energy usage for various AI queries plus other technologies*, and every day activities.
+1. Typical energy usage for various AI queries plus other technologies<sup>[1]</sup>, and every day activities.
 2. The same for training AI
 3. The carbon emissions per unit of energy, by different regions
-4. Water Usage Effectiveness of Microsoft Data Centres**
+4. Water Usage Effectiveness of Microsoft Data Centres<sup>[2]</sup>
 
 > [!NOTE]
-> *These numbers carry a significant margin of error; data-centre energy totals are used to work backwards; spreading that power across networks, devices, users, and time to land on a rough cost per operation per user. They represent ball-park figures only; **these numbers are directional, not precise.** The goal is scale, not accuracy.
-> **OpenAI is powered by Microsoft Azure Data Centres; WUE can be measured in Litres per kilowatt hour to detect the water required in datacenter operation.
+> <sup>[1]</sup>These numbers carry a significant margin of error; data-centre energy totals are used to work backwards; spreading that power across networks, devices, users, and time to land on a rough cost per operation per user. They represent ball-park figures only; **these numbers are directional, not precise.** The goal is scale, not accuracy.
+> <sup>[2]</sup>OpenAI is powered by Microsoft Azure Data Centres; WUE can be measured in Litres per kilowatt hour to detect the water required in datacenter operation.
 
 To see the exact values and their sources, please expand the content below.
 
