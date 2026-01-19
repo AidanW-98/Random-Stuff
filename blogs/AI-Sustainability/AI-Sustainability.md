@@ -220,7 +220,7 @@ But thankfully in Claude **we can see the token usage**; use `/status` within Cl
 - A gaming PC operation for 12hours
 
 > [!NOTE]
-> Other estimates in this blog use numbers I've found and researched. These estimates for Claude are from ChatGPT & back-of-the-envelope calculations only, feel free to challenge them!
+> Other estimates in this blog use numbers I've found and researched, however these estimates are from ChatGPT & back-of-the-envelope calculations only... Feel free to challenge them!
 
 ## 🤖 Don't forget - training AI
 
