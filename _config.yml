@@ -1,20 +1,17 @@
 # Jekyll configuration for GitHub Pages
 
-# Theme
-remote_theme: kitian616/jekyll-TeXt-theme
+# Theme - GitHub's default
+theme: jekyll-theme-primer
 
 # Site settings
 title: Blogs
 description: A collection of thoughts and insights
 baseurl: "/Random-Stuff"
 url: "https://aidanw-98.github.io"
-text_skin: forest
-highlight_theme: tomorrow
 
 # Plugins
 plugins:
   - jekyll-gfm-admonitions
-  - jekyll-remote-theme
 
 # Build settings
 markdown: GFM
