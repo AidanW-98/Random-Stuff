@@ -6,22 +6,15 @@ remote_theme: kitian616/jekyll-TeXt-theme
 # Site settings
 title: Blogs
 description: A collection of thoughts and insights
-<<<<<<< HEAD
-baseurl: /Random-Stuff
-url: https://aidanw-98.github.io
-text_skin: forest # nature-inspired green tones
-highlight_theme: tomorrow # code highlighting theme
-=======
-text_skin: forest # nature-inspired green tones
->>>>>>> ca9b7a39455725f89726769e007c310599f2d7bb
+baseurl: "/Random-Stuff"
+url: "https://aidanw-98.github.io"
+text_skin: forest
+highlight_theme: tomorrow
 
 # Plugins
 plugins:
   - jekyll-gfm-admonitions
-<<<<<<< HEAD
   - jekyll-remote-theme
-=======
->>>>>>> ca9b7a39455725f89726769e007c310599f2d7bb
 
 # Build settings
 markdown: GFM
