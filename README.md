@@ -4,7 +4,7 @@ I'm not entirely sure; I wanted to share an internal SkyScanner blog to people o
 
 ## Running Locally
 
-Ensure you have Ruby (3.3.0) and Jekyll installed, then run:
+Ensure you have Ruby (3.1.7) and Jekyll installed, then run:
 
 ```zsh
 bundle exec jekyll serve
