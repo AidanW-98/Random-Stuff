@@ -24,6 +24,7 @@ Taking a look at the data, I’ve pulled in estimations for:
 
 > [!NOTE]
 > <sup>[1]</sup>These numbers carry a significant margin of error; data-centre energy totals are used to work backwards; spreading that power across networks, devices, users, and time to land on a rough cost per operation per user. They represent ball-park figures only; **these numbers are directional, not precise.** The goal is scale, not accuracy.
+>
 > <sup>[2]</sup>OpenAI is powered by Microsoft Azure Data Centres; WUE can be measured in Litres per kilowatt hour to detect the water required in datacenter operation.
 
 To see the exact values and their sources, please expand the content below.
@@ -136,16 +137,17 @@ So; if AI isn't the energy villain in our homes, what about when we compare it t
 
 ### Comparing to other technologies
 
-And finally - let's see how AI compares to other technologies
+Let's take a look
 
 ![AI energy usage compared to other digital technologies](./images/AIvsOthers-EnergyUsage.png)
 
-> [!WARNING]
-> Again, this data is not concrete; do not take any comparisons as factual or scientific.
-
 **Typical AI uses seem to be light-weight in the tech world**. The main culprits are with Zoom and Social Media and although AI's energy usage is significant - it is not nothing; generating video especially could be a concern if done many times a day.
 
-It makes sense when you think about it: a single scroll through social media requires on-demand video streaming with heavy, personalised algorithms & think about what must be required to stream that 4K fireplace on YouTube.
+It makes sense when you think about it:
+
+- A single scroll through social media requires on-demand video streaming with heavy, personalised algorithms
+- A Zoom call involves real-time video transmission often across the globe, with real-time analytics, maybe with the calls being recorded and stored
+- Think about all the data being transferred and servers required to run to stream that 4K fireplace on YouTube which more or less every pub in the UK seems to have on their TV's over December time.
 
 ## ☁️ But what about carbon emissions?
 
@@ -202,18 +204,7 @@ Here's an interesting graph (or at least it is to me);
 
 The major factor here is how green the energy source is; the above is assuming UK electricity - but the picture would be completely different for data centres in Sweden.
 
-## 🌊 What about water usage?
-
-We do hear a lot of the water required in data centre cooling; again this is region dependant and well document by Microsoft in their [data centre efficiency article](https://datacenters.microsoft.com/sustainability/efficiency/).
-
-> [!NOTE]
-> In this exercise, we're needing the *Water Usage Effectiveness* measured in Litres required per kWh of electricity. We're assuming the global average of 0.3L/kWh.
-
-![Water usage from AI and other technologies](./images/AIvsOthers-WaterConsumptions.png)
-
-Data centre cooling seems efficient at a scale of high-end use; **it would take roughly 400 messages to ChatGPT to waste an espresso-cup sized amount of water** and we have a similar story for other technologies. On a personal scale, the water usage from AI or any technology is not a concern.
-
-## 🐙 A quick note on Claude
+## 🐙 A quick note on AI Coding Agents (e.g. Claude & CoPilot)
 
 Many of us are using coding assistants in our work and seeing great results, these methods seem to be constantly reasoning and producing code, so our metrics like number of chats won’t apply here.
 
@@ -228,11 +219,22 @@ But thankfully in Claude **we can see the token usage**; use `/status` within Cl
 > [!WARNING]
 > Other estimates in this blog use numbers I've found and [documented above](#research-numbers), however these estimates are from ChatGPT & back-of-the-envelope calculations only... Feel free to challenge them!
 
+## 🌊 What about water usage?
+
+We do hear a lot of the water required in data centre cooling; again this is region dependant and well document by Microsoft in their [data centre efficiency article](https://datacenters.microsoft.com/sustainability/efficiency/).
+
+> [!NOTE]
+> In this exercise, we're needing the *Water Usage Effectiveness* measured in Litres required per kWh of electricity. We're assuming the global average of 0.3L/kWh.
+
+![Water usage from AI and other technologies](./images/AIvsOthers-WaterConsumptions.png)
+
+Data centre cooling seems efficient at a scale of high-end use; **it would take roughly 400 messages to ChatGPT to waste an espresso-cup sized amount of water** and we have a similar story for other technologies. On a personal scale, the water usage from AI or any technology is not a concern.
+
 ## 🤖 Don't forget - training AI
 
 So why all hysteria about AI being bad for the environment? Well an elephant in the room so far ignored is **what is required when training AI,** and this is significant.
 
-> [!TIP]
+> [!NOTE]
 > The exact details of training a GPT-5-scale model are not public, but it involves running large GPU clusters continuously for weeks to optimise billions of parameters over vast datasets. A significant amount electricity is used and this is largely carried out in the United States.
 
 This is a massive operation. We went from talking about watt hours, millilitres and grams of CO2 to: gigawatts, mega-litres, and thousands of metric tonnes of CO2 emitted.
@@ -262,6 +264,12 @@ Though we have more concerning consumers of our water - roughly 8,000L goes into
 > [!NOTE]
 > The AI autocomplete recommends I write that the water usage of AI is negligible... I wouldn't go that far!
 
+## 🗣️ Most importantly - what do you think?
+
+This blog is not meant to be a definitive answer; I am hoping for this to be a starting point for discussion and thought.
+
+There are likely points in this where I'm wrong or have made incorrect assumptions. I like a challenge and I like to learn more, we all should be doing so; I'd love to hear your thoughts! If you know me - chat to me directly; if you saw this post online - comment on that post; if you have anything you'd want to say - please do, my LinkedIn is below.
+
 ## 🌍 Closing thoughts & how we can help
 
 This blog is not a deep-dive; I’ve ball-parked AI’s impact to the environment, compared this to other activities, and have come to the conclusion that *it doesn’t seem all that bad* in context.
@@ -269,17 +277,12 @@ This blog is not a deep-dive; I’ve ball-parked AI’s impact to the environmen
 If you’re considering cutting back on AI to help the planet; it is my opinion that this would not be effective; there are far bigger and easier gains outwith AI. See what [WWF say about it](https://www.wwf.org.uk/thingsyoucando), and if energy usage is the worry - perhaps consider the impact of streaming video or scrolling social media.
 
 > [!IMPORTANT]
-> To be frank, the real discussion shouldn't be about using AI - it should be about how green its energy is. In other words, **AI isn't bad for the environment, powering it with fossils fuels is.** This should be the debate.
+> To be frank, the real discussion shouldn't be about using AI - it should be about how green its energy is. In other words: **AI isn't bad for the environment, powering it with fossils fuels is.** This should be the debate.
 
-So, how can we help? It’s not for me to say here, but it’s always good practise to educate yourselves; be a little skeptical, have some conversations, and do your own research. As a few pointers:
+So, how can we help? It’s not for me to say here, but it’s always good practise to educate yourselves; be a little skeptical, have some conversations, and do your own research. As a couple pointers:
 
-- Chat to Ecosia’s AI: [https://www.ecosia.org/ai-search](https://www.ecosia.org/ai-search) (backed by renewable energy)
-- Consider the book: [https://www.goodreads.com/book/show/7230015-how-bad-are-bananas](https://www.goodreads.com/book/show/7230015-how-bad-are-bananas)  (I’ve not read this yet; but considers and discusses carbon footprint of all our everyday activities)
-
-## 🗣️ Most importantly - what do you think?
-
-**This blog is not a conclusive or definitive answer**; I'm intending this as a starting point for discussion and thought, and there are likely points in this where I'm wrong or have made incorrect assumptions.
-
-I like a challenge and I like to learn more, we all should be doing so; I'd love to hear your thoughts! If you know me - chat to me directly; if you saw this post online - comment on that post; if you have anything you'd want to say - please do, my LinkedIn is below.
+- Chat to [Ecosia’s AI](https://www.ecosia.org/ai-search), backed by renewable energy
+- Consider the book: [How bad are Bananas?](https://www.goodreads.com/book/show/7230015-how-bad-are-bananas) (I’ve not read this yet; but considers and discusses carbon footprint of all our everyday activities)
+- Challenge assumptions, seek the bigger picture, and avoid headline-fuelled panic.
 
 … Anyway, that's me. I hope this has been a useful and informative read! Adios ☮️
