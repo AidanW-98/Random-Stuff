@@ -1,1 +1,5 @@
-Hey there! Want to see my blog on [🌍 AI & its impact on the environment - A Data Driven View](blogs/AI-Sustainability/AI-Sustainability.html)?
+---
+layout: default
+---
+
+G'day! Fancy reading my blog on [AI's impact on the environment?](blogs/AI-Sustainability/blog.html)?

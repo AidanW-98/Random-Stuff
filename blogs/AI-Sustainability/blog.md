@@ -135,7 +135,7 @@ And finally - let's see how AI compares to other technologies
 
 ![AI energy usage compared to other digital technologies](./images/AIvsOthers-EnergyUsage.png)
 
-> [!warning]
+> [!WARNING]
 > Again, this data is not concrete; do not take any comparisons as factual or scientific.
 
 **Typical AI uses seem to be light-weight in the tech world**. The main culprits are with Zoom and Social Media and although AI's energy usage is significant - it is not nothing; generating video especially could be a concern if done many times a day.

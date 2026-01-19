@@ -3,27 +3,12 @@
 
 @import "{{ site.theme }}";
 
-/* Subtle nature-inspired styling */
+/* Very subtle nature-inspired touches */
 body {
-  background-color: #f9f7f1; /* warm sepia off-white */
+  background-color: #faf9f7; /* barely-there warm sepia */
 }
 
-/* Soften the container background */
-.markdown-body {
-  background-color: #fdfcf9;
-  border-radius: 4px;
-}
-
-/* Warm up link colors slightly */
+/* Slightly warmer link color */
 a {
-  color: #2c7a4d; /* forest green for links */
-}
-
-a:hover {
-  color: #1e5a36;
-}
-
-/* Soften headings with a warm tone */
-h1, h2, h3, h4, h5, h6 {
-  color: #3a3a3a;
+  color: #258040; /* subtle forest green */
 }

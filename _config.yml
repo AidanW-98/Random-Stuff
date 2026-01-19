@@ -8,10 +8,5 @@ title: AidanBlogs
 description: Aidan had some thoughts...
 url: "https://aidanw-98.github.io/Random-Stuff"
 
-# Plugins
-plugins:
-  - jekyll-remote-theme 
-  - jekyll-gfm-admonitions
-
 # Build settings
 markdown: GFM

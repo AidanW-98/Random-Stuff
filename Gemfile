@@ -1,7 +1,6 @@
 source "https://rubygems.org"
 
-# GitHub Pages gem
-gem "github-pages", group: :jekyll_plugins
-
-# GFM Admonitions plugin
-gem "jekyll-gfm-admonitions"
+group :jekyll_plugins do
+   gem "github-pages"
+   gem "jekyll-gfm-admonitions"
+end
