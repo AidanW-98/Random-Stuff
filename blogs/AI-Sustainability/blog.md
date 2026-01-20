@@ -23,9 +23,10 @@ Taking a look at the data, I’ve pulled in estimations for:
 4. Water Usage Effectiveness of Microsoft Data Centres<sup>[2]</sup>
 
 > [!NOTE]
-> <sup>[1]</sup>These numbers carry a significant margin of error; data-centre energy totals are used to work backwards; spreading that power across networks, devices, users, and time to land on a rough cost per operation per user. They represent ball-park figures only; **these numbers are directional, not precise.** The goal is scale, not accuracy.
 >
-> <sup>[2]</sup>OpenAI is powered by Microsoft Azure Data Centres; WUE can be measured in Litres per kilowatt hour to detect the water required in datacenter operation.
+> - <sup>[1]</sup>These numbers carry a significant margin of error; data-centre energy totals are used to work backwards; spreading that power across networks, devices, users, and time to land on a rough cost per operation per user. They represent ball-park figures only; **these numbers are directional, not precise.** The goal is scale, not accuracy.
+>
+> - <sup>[2]</sup>OpenAI is powered by Microsoft Azure Data Centres; WUE can be measured in Litres per kilowatt hour to detect the water required in datacenter operation.
 
 To see the exact values and their sources, please expand the content below.
 
@@ -110,7 +111,7 @@ one_hundred_grams_chocolate=1800
 
 ## 🔌 Energy usage of AI
 
-First of all, let's look how much energy (measured in kWh) is typically used by different AI requests and how this compares in terms we know and understand.
+First of all, let's look how much energy (measured in kWh) is typically used by different AI requests and how this compares in terms we know and I understand.
 
 ### How requests compare
 
@@ -162,7 +163,7 @@ With AI and tech, **carbon emissions come from the electricity powering the data
 
 ![Carbon intensity by country](./images/EnergyCarbonEfficiencyMap.png)
 
-*Extract Our World in Data; carbon intensity, see full [world map view](https://ourworldindata.org/grapher/carbon-intensity-electricity?mapSelect=USA~GBR~SWE) for more.*
+*Extract from Our World in Data; carbon intensity, see full [world map view](https://ourworldindata.org/grapher/carbon-intensity-electricity?mapSelect=USA~GBR~SWE) for more.*
 
 ### CO2 from individual uses of AI, large scale
 
@@ -214,21 +215,21 @@ But thankfully in Claude **we can see the token usage**; use `/status` within Cl
 
 - Driving 6km in a typical petrol car
 - Running a shower for 30 minutes (electric shower)
-- A gaming PC operation for 12hours.
+- A gaming PC operating for 12hours.
 
 > [!WARNING]
-> Other estimates in this blog use numbers I've found and [documented above](#research-numbers), however these estimates are from ChatGPT & back-of-the-envelope calculations only... Feel free to challenge them!
+> Other estimates in this blog use numbers I've found and are [documented above](#research-numbers), however these estimates are from ChatGPT & back-of-the-envelope calculations only... Feel free to challenge them!
 
 ## 🌊 What about water usage?
 
-We do hear a lot of the water required in data centre cooling; again this is region dependant and well document by Microsoft in their [data centre efficiency article](https://datacenters.microsoft.com/sustainability/efficiency/).
+We do hear a lot about the water required in data centre cooling; again this is region dependant and well document by Microsoft in their [data centre efficiency article](https://datacenters.microsoft.com/sustainability/efficiency/).
 
 > [!NOTE]
 > In this exercise, we're needing the *Water Usage Effectiveness* measured in Litres required per kWh of electricity. We're assuming the global average of 0.3L/kWh.
 
 ![Water usage from AI and other technologies](./images/AIvsOthers-WaterConsumptions.png)
 
-Data centre cooling seems efficient at a scale of high-end use; **it would take roughly 400 messages to ChatGPT to waste an espresso-cup sized amount of water** and we have a similar story for other technologies. On a personal scale, the water usage from AI or any technology is not a concern.
+Data centre cooling seems efficient at a scale of high-end use; **it would take roughly 400 messages to ChatGPT to waste an espresso-cup sized amount of water** and we have a similar story for other technologies. On a personal scale, the water usage from AI (or any technology above) is not a concern.
 
 ## 🤖 Don't forget - training AI
 
@@ -253,7 +254,7 @@ However, this is a one-off exercise where a trained model is then used by millio
 
 Again; this will follow the same pattern as above - the extreme amount of computation would require an extreme amount of water for cooling, the likes of which has never been needed for Zoom or Social Media.
 
-Again; let's see how this compares to other gotcha's we may not expect:
+Again; let's see how this compares to other gotcha's we may not expect.
 
 ![Water usage from training AI compared to everyday uses](./images/AITraining-WaterUsage.png)
 
@@ -277,7 +278,7 @@ This blog is not a deep-dive; I’ve ball-parked AI’s impact to the environmen
 If you’re considering cutting back on AI to help the planet; it is my opinion that this would not be effective; there are far bigger and easier gains outwith AI. See what [WWF say about it](https://www.wwf.org.uk/thingsyoucando), and if energy usage is the worry - perhaps consider the impact of streaming video or scrolling social media.
 
 > [!IMPORTANT]
-> To be frank, the real discussion shouldn't be about using AI - it should be about how green its energy is. In other words: **AI isn't bad for the environment, powering it with fossils fuels is.** This should be the debate.
+> To be frank, the real discussion shouldn't be about using AI - it should be about how green its energy is. In other words: **AI isn't bad for the environment, powering it with fossil fuels is.** This should be the debate.
 
 So, how can we help? It’s not for me to say here, but it’s always good practise to educate yourselves; be a little skeptical, have some conversations, and do your own research. As a couple pointers:
 
