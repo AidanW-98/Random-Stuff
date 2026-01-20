@@ -9,3 +9,7 @@ Ensure you have Ruby (3.1.7) and Jekyll installed, then run:
 ```zsh
 bundle exec jekyll serve
 ```
+
+## Achnowledgements
+
+FavIcon created by Freepik from [flaticon](https://www.flaticon.com/free-icons/cow)
