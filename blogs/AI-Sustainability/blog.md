@@ -206,7 +206,7 @@ The major factor here is how green the energy source is; the above is assuming U
 
 ## 🐙 A quick note on AI Coding Agents (e.g. Claude & CoPilot)
 
-Many of us are using coding assistants in our work and seeing great results, these methods seem to be constantly reasoning and producing code, so our metrics like number of chats won’t apply here.
+Many of us are using coding assistants in our work and seeing great results - these agents seem to be constantly reasoning and producing code, so our metrics like number of chats won’t apply here.
 
 But thankfully in Claude **we can see the token usage**; use `/status` within Claude CLI.
 
@@ -214,7 +214,7 @@ But thankfully in Claude **we can see the token usage**; use `/status` within Cl
 
 - Driving 6km in a typical petrol car
 - Running a shower for 30 minutes (electric shower)
-- A gaming PC operation for 12hours
+- A gaming PC operation for 12hours.
 
 > [!WARNING]
 > Other estimates in this blog use numbers I've found and [documented above](#research-numbers), however these estimates are from ChatGPT & back-of-the-envelope calculations only... Feel free to challenge them!
