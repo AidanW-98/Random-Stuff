@@ -285,4 +285,4 @@ So, how can we help? It’s not for me to say here, but it’s always good pract
 - Consider the book: [How bad are Bananas?](https://www.goodreads.com/book/show/7230015-how-bad-are-bananas) (I’ve not read this yet; but considers and discusses carbon footprint of all our everyday activities)
 - Challenge assumptions, seek the bigger picture, and avoid headline-fuelled panic.
 
-… Anyway, that's me. I hope this has been a useful and informative read! Adios ☮️
+… Anyway, that's me. I hope this has been a useful and informative read! Adios ✌️
