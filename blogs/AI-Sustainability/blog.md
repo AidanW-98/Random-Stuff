@@ -1,6 +1,6 @@
 # 🌍 AI & its impact on the environment - A Data Driven View
 
-Hey there - I work at SkyScanner, we get some generous Personal Development Time (PDT) and we can blog about anything we like! I decided to write about AI and its impact on the environment 🙀
+Hey there - at work we get some generous Personal Development Time (PDT) and we can blog about anything we like! I decided to write about AI and its impact on the environment 🙀
 
 > [!IMPORTANT] Beware
 > **This is a blog, not a research paper.** I've taken ball-park estimates, applied simple calculations, and plotted these onto graphs. I have my sources below. Please do not take any of the numbers or comparisons as scientifically accurate or precise. The goal is to provide directional insight only.
