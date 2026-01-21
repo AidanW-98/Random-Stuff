@@ -1,6 +1,6 @@
 # What's this?
 
-I'm not entirely sure; I wanted to share an internal SkyScanner blog to people outwith the company, so I set up this simple Jekyll site with GitHub Pages to host it. For now, this is all.
+I'm not entirely sure; I wanted to share an internal blog to people outwith the company, so I set up this simple Jekyll site with GitHub Pages to host it. For now, this is all.
 
 ## Running Locally
 
